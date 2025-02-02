@@ -9,4 +9,4 @@ Wikipedia articles are retrieved using the **WikipediaLoader** and converted int
 
 Wikipedia articles are again retrieved using the **WikipediaLoader** and converted into documents, with **OpenAI embeddings** generated. The embeddings and metadata are stored in a **FAISS vector store**, enabling fast similarity-based document retrieval. A retriever fetches the most relevant documents, which are passed to OpenAI’s **GPT-4o-mini** via LangChain’s RetrievalQA chain to generate detailed answers. The Wikipedia Search Assistant provides once again clear, context-aware answers with source citations for transparency.
 
-#### If you find this repository useful for you, drop it a star :)
+#### If you find this repository useful for you, drop it a &#11088; :)
